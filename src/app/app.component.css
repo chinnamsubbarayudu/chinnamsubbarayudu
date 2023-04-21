@@ -1,0 +1,160 @@
+.header{
+    position:fixed;
+    background-color: navy;
+    height: 200px;
+    padding: 50px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+
+.fixed-searchbar{
+    position: fixed;
+    top: 154px;
+    left: 200px;
+    width: 74%;
+    z-index: 100;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 10px 0 gray;
+}
+.search-btn{
+    padding:10px 30px;
+    margin-left:10px;
+    text-align: center;
+    background-color: navy;
+    color: white;
+
+}
+.fixed-footer{
+    background-color: black;
+    height: 250px;
+    padding: 50px;
+    width: 100%;
+    
+}
+.logoworld{
+    margin-left: 122px
+}
+.paragraph{
+    color: white;
+    display: flex;
+    text-align: end;
+    margin-right: 63px;
+}
+.para1{
+   
+    color:white;
+    margin: 115px 0px 0px 130px;
+}
+.para1-0{
+    color: white;
+    margin-top: 75px;
+    text-align: end;
+    margin-right: 63px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.name{
+    font-size:20px;
+    font-weight: bold;
+    margin: 10px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.continents{
+    font-size:20px;
+    color:grey;
+    margin: 10px;
+    font-weight: bold;
+}
+.main-1{
+    border: 2px solid grey;
+    width:228px;
+    height:246px;
+    margin:10px 3px 0px 0px;
+    object-fit: contain;
+    border-radius: 3px;
+    box-shadow: 5px 5px 10px 0 gray;
+}
+.d-flex{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.search{
+    position: fixed;
+    width: 100px;
+}
+.subscribe{
+    margin-left: 126px;
+    padding: 8px 30px;
+    margin-top: 20px;
+    background-color: navy;
+    color: white;
+}
+
+.position{
+   top:0;
+}
+.button{
+    text-align: center;
+}
+.pop{
+    margin: 5px;
+}
+.country-image{
+    width: 213px;
+    height: 145px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.scrollable{
+    margin: 205px 128px 205px 205px;
+    /* margin-bottom: 40px; */
+}
+.input-box{
+    width:735px;
+}
+.Icon-inside{
+    position: relative;
+}
+.Icon-inside i{
+    position: absolute;
+    right: 0;
+    top: 15px;
+    margin: 0 10px;
+}
+.next{
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 10px;
+    float: inline-end;
+}
+nav a{
+    background-color: black;
+    cursor: pointer;
+}
+a:hover{
+color: white;
+padding: 10px;
+gap: 4px;
+}
+.searchs{
+    text-align:center;
+    padding:20px;
+    margin-right: 10px;
+}
